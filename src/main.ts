@@ -1,4 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import {
+  createApp
+} from 'vue';
+import App from './App.vue';
+import {
+  todoListSymbol,
+  todoList
+} from './store';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.provide(todoListSymbol, todoList);
+
+app.mount('#app');
