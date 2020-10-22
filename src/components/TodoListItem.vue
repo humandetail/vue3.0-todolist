@@ -11,14 +11,14 @@
         type="button"
         @click="handleBtnClick('UPDATE', todoItem.id)"
       >
-        Update
+        编辑
       </button>
       <button
         class="btn btn-remove"
         type="button"
         @click="handleBtnClick('REMOVE', todoItem.id)"
       >
-        Remove
+        删除
       </button>
     </div>
   </li>

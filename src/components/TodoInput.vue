@@ -46,8 +46,8 @@ export default defineComponent({
       const action = props.action;
 
       return action === 1
-        ? 'Update'
-        : 'Create';
+        ? '编辑'
+        : '添加';
     });
 
     const onInput = (e: KeyboardEvent) => {
